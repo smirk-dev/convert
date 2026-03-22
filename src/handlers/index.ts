@@ -64,6 +64,8 @@ import mclangHandler from "./minecraftLangfileHandler.ts";
 import celariaMapHandler from "./celariaMap.ts";
 import cybergrindHandler from "./cybergrindHandler.ts";
 import textToSourceHandler from "./textToSource.ts";
+import chessjsHandler from "./chessjs.ts";
+import fenToJsonHandler from "./fenToJson.ts";
 import piskelHandler from "./piskel.ts";
 import xcursorHandler from "./xcursor.ts";
 
@@ -136,6 +138,8 @@ try { handlers.push(new mclangHandler()) } catch (_) { };
 try { handlers.push(new celariaMapHandler()) } catch (_) { };
 try { handlers.push(new cybergrindHandler()) } catch (_) { };
 try { handlers.push(new textToSourceHandler()) } catch (_) { };
+try { handlers.push(new chessjsHandler()) } catch (_) { };
+try { handlers.push(new fenToJsonHandler()) } catch (_) { };
 try { handlers.push(new piskelHandler()) } catch (_) { };
 try { handlers.push(new xcursorHandler()) } catch (_) { };
 
